@@ -1,7 +1,7 @@
 let lineNum = 15
 let canvasSize = 50
-let canvasScale = 20
-let lineWidth = 5
+let canvasScale = 25
+let lineWidth = 3
 let noiseScale = 0.1
 let seed = 'Hello world.'
 let distortScale = 100
@@ -54,7 +54,7 @@ function draw() {
 	ctx.lineWidth = lineWidth
 	
 	ctx.setTransform(1, 0, 0, 1, 0, 0);
-	ctx.fillStyle = 'rgba(255,255,255,1)'
+	ctx.fillStyle = 'rgba(255,255,255,0.75)'
 		// ctx.strokeStyle = 'transparent'
 	
 	ctx.fillRect(0,0,canvasSize*canvasScale,canvasSize*canvasScale)
